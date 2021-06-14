@@ -1,0 +1,318 @@
+<html>
+    <head>java</head>
+    <body>
+        <script>
+            document.write("hello");
+            consoloe.log("hello from console!")
+            var x=10;
+            document.write(x);
+            var x =100;
+            console.log(x);
+            x=42;
+            /*console.=log(x); */
+
+            var x  =100;
+            document.write(x);
+            //comentario 
+            alter("this is an alert box")
+            /*comentarios*/
+            var num = 42; // A number without decimals
+            var name = 'John';
+var text = "My name is John Smith";
+var text = "My name is 'John' ";
+/* var sayhello='hello word' \'i am a javascript programer.\'';*/
+var isActive = true; 
+var isHoliday = false;
+var x=10 + 5;
+document.write(x);
+
+var x =10 * 5;
+document.write(x);
+
+var x = 100/5;
+document.write(x);
+
+var myvariable =26%6;
+
+var num =10;
+// num ==8 will retun false
+
+variable = (condition) ? value1: value2 
+if (expression) {
+   // executed if condition is true
+}
+else {
+   // executed if condition is false
+}
+
+var mynum1 = 7;
+var mynum2 =10;
+if (mynum1 > mynum2) {
+    alert("this is my first condition")
+}
+else {
+    alert("this is mi second condition")
+}
+var course =1;
+if (course==1){
+    document.write("<h1> html tutorial ")
+} else if (course == 2) {
+    document.write("<h1>javascript tutorial</h1>")
+}
+
+
+switch (expression) {
+  case n1: 
+     statements
+     break;
+  case n2: 
+     statements
+     break;
+  default: 
+     statements
+}   
+
+var day = 2;
+switch (day) {
+    case 1:
+        document.write("monday");
+        break;
+    case 2:
+        document.write("tuesday");
+        break;
+    case 3:
+    document.write ("wednesday")
+        break;
+    default:
+    document.write("another day");
+}
+
+while ​(condition) {    
+
+​ /* codeblock
+} */
+
+var i=0;
+while(i<=10) {
+    document.write(i + "<br />");
+
+}
+ /* do {
+   code block
+} 
+*/
+while (condition);
+
+
+for (i=0; i <=10; i++){
+    if (i == 5) {
+        continue;
+    }
+    document.write(i + "<br/>")
+}
+
+document.body.innerHTML = "Some text";
+//finds element by id
+document.getElementById(id) 
+
+//finds elements by class name
+document.getElementsByClassName(name) 
+
+//finds elements by tag name
+document.getElementsByTagName(name)
+
+var elem = document.getElementById("demo");
+elem.innerHTML = "Hello World!";}
+</script>
+<p>hi</p>
+<p>hello</p>
+<p>hi</p>
+<script>
+var arr = document.getElementsByTagName("p");
+for (var x = 0; x < arr.length; x++) {
+  arr[x].innerHTML = "Hi there";
+}
+</script>
+<img id="myimg" src="orange.png" alt="" />
+<script>
+var el = document.getElementById("myimg");
+el.src = "apple.png";
+var node = document.createTextNode("Some new text");
+var t = setInterval(move, 500); 
+// starting position
+var pos = 0; 
+//our box element
+var box = document.getElementById("box");
+
+function move() {
+  pos += 1;
+  box.style.left = pos+"px"; //px = pixels
+}
+function move() {
+  if(pos >= 150) {
+    clearInterval(t);
+  }
+  else {
+    pos += 1;
+    box.style.left = pos+"px";
+  }
+}
+</script>
+    </body>
+</html>
+<script>                  
+    var John = {name: "pedro", age: 25};
+    var James = {name: "juan", age: 21};
+       </script>
+       </script>
+       <br>
+       <script>                  
+      var John = {
+          name: "pedro",
+          age: 25
+        };
+        var James = {
+            name: "juan",
+            age: 21
+        };
+        document.write(pedro.age);
+         </script>
+        <br>
+        <script>
+        //nombreMétodo = función () {líneas de código}                  
+         function person(name, age){
+             this.name = name;
+             this.age = age;
+             this.changename = function(name){
+
+             }
+         }
+         var p = new person("juan", 21);
+         p.changename("pedro");
+         // Ahora p.name es igual a "pedro"
+        </script>
+        <br>
+        <script>
+            function person(name, age) {
+                this.name= name;  
+                this.age = age;
+                this.yearOfBirth = bornYear;
+            }
+            function bornYear() {
+                return 2016 - this.age;
+            }
+        </script>
+        <br>
+        <script>
+            function person(name, age){
+                this.name=name;
+                this.age = age;
+                this.yearOfBirth = BornYear;
+            }
+            function bornYear(){
+                return 2016 - this.age;
+            }
+            var p = new person("A", 22);
+            document.write(p.yearOFBirth());
+        </script>
+        </br>
+        <script>
+            var course1 ="HTML"; 
+            var course2 ="CSS"; 
+            var course3 ="JS"; 
+            var courses = new Array("HTML", "CSS", "JS"); 
+            </script>
+            <script>
+                var courses = new Array("HTML", "CSS", "JS"); 
+            var course = courses[0]; // HTML
+            courses[1] = "C++"; //cambiar el 2 
+            </script>
+            <script>
+                var course1 ="HTML"; 
+                var course2 ="CSS"; 
+                var course3 ="JS"; 
+                var courses = new Array("HTML", "CSS", "JS"); 
+                </script>
+                </br>
+                <script>
+                    var courses = new array ("HTML", "CSS", "JS");
+                    document.write(courses[10]); 
+                </script>
+                </br>
+                <script>
+                    var courses = new array ("3");
+                    courses[0] = "HTML";
+                    courses[1] = "CSS";
+                    courses[2] = "JS"
+                </script>
+                <script>
+                    var cousers = new Array();
+                     var course1 ="HTML"; 
+                     var course2 ="CSS"; 
+                     var course3 ="JS"; 
+                     var course3 ="C++"; 
+                     var course = ["HTML","CSS","JS"];
+                     var courses = ["HTML","CSS","JS"];
+                     </script>
+                         <script>
+                     var courses = ["HTML","CSS","JS"];
+                     document.write(courses.length);
+                         </script>
+                     <script>
+                     var c1 = ["HTML","CSS"];
+                     var c2 = ["JSS","C++"];
+                     var courses = c1.conta(c2);
+                     </script>
+         </body>
+                     </html>
+
+<html>
+<head>events</head>
+<body>
+    <body onload="doSomething()">
+<script>/* ​//some code
+}
+
+element.addEventListener("click", myFunction);
+element.addEventListener("mouseover", myFunction);
+
+function myFunction() {
+  alert("Hello World!");
+}
+//* Capturing propagation
+elem1.addEventListener("click", myFunction, true); 
+
+//Bubbling propagation
+elem2.addEventListener("click", myFunction, false);*/
+ </script> window.onload ​= function() {
+<script>
+var images = [
+    "http://www.sololearn.com/uploads/slider/1.jpg", 
+    "http://www.sololearn.com/uploads/slider/2.jpg", 
+    "http://www.sololearn.com/uploads/slider/3.jpg"
+ ];</script>
+    </body>
+    <div>
+        <button onclick="prev()"> Prev </button>
+        <img id="slider" src="http://www.sololearn.com/uploads/slider/1.jpg" 
+          width="200px" height="100px"/>
+        <button onclick="next()"> Next </button>
+      </div>
+      <form onsubmit="return validate()" method="post">
+        Number: <input type="text" name="num1" id="num1" />
+        <br />
+        Repeat: <input type="text" name="num2" id="num2" />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+      <script>
+          var a = 10;
+const b = 'hello';
+let c = true;
+const test = (a, b = 3, c = 42) => {
+  return a + b + c;
+}
+console.log(test(5)); //50 
+      </script>
+</html>
+                        
